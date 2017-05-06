@@ -1,5 +1,7 @@
 # C# QUIZ
 
+*IMPORTANT*: Do not use Visual Studio to answer the coding questions.
+
 - What is an interface?
 
 - What is polymorphism?  Describe an example?
@@ -42,13 +44,13 @@ public static void NullEmployee(Employee employee)
 
 ````
 
-- Create a class named Employee with the properties to hold the following info:
+- In the *Employee.cs* file in this folder, create a class named Employee with the properties to hold the following info:
   - first name
   - last name
   - hire date
   - email
 
-- Create an Employee object from the class defined above.  Give this object the following information:
+- In the *Program.cs* file in this folder, create an Employee object from the class defined above.  Give this object the following information:
   - first name: Harry
   - last name: Potter
   - hire date: 1/1/2015
@@ -56,8 +58,8 @@ public static void NullEmployee(Employee employee)
 
 - Take the Employee class created from the previous example and override the ToString() method to return a string representation of the properties.  Use string interpolation.
 
-- Create a static method on the Employee class named CloneEmployee that takes an Employee object as a parameter and returns a deep copy.
+- Create a static method on the Employee class named CloneEmployee that takes an Employee object as a parameter and returns a deep copy.  Demonstrate using this method in the *Program.cs* file in this folder.
 
-- Create a method on the Employee class that returns the number of days an employee has been employed.
+- Create a method on the Employee class that returns the number of days an employee has been employed.  Demonstrate using this method in the *Program.cs* file in this folder.
 
-- Create a list of Employee objects.  Add three Employee objects to the list.  Iterate over the list of objects and call each object's ToString() method on each iteration.
+- In the *Program.cs* file in this folder, create a list of Employee objects.  Add three Employee objects to the list.  Iterate over the list of objects and call each object's ToString() method on each iteration.
